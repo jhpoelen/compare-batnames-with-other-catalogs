@@ -3,9 +3,9 @@
 # a url without scheme like https:// (e.g., ```url: foodorganisms.txt```) 
 # is assumed to be a local file in working directory
 datasets:
-    - id: mdd
+    - id: batnames
       enabled: true
-      name: Mammal Diversity Database
+      name: Bat Names
       type: application/nomer
     - url: names.csv
       enabled: false
@@ -55,7 +55,7 @@ taxonomies:
       enabled: false
       name: Index Fungorum
     - id: mdd
-      enabled: false
+      enabled: true
       name: Mammal Diversity Database
     - id: ott
       enabled: false
